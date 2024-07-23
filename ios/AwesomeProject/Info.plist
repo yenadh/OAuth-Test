@@ -48,5 +48,21 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>CFBundleIdentifier</key>
+<string>org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)</string>
+<key>CFBundleURLTypes</key>
+<array>
+    <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>org.reactjs.native.example.AwesomeProject</string>
+        </array>
+    </dict>
+</array>
+<key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>msauthv2</string>
+	<string>msauthv3</string>
+</array>
 </dict>
 </plist>
